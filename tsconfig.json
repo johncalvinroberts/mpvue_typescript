@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": false,
+    "importHelpers": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": false,
+    "strict": false,
+    "strictNullChecks": true,
+    "noLib": false,
+    "rootDir": "src",
+    "baseUrl": "src",
+    "typeRoots": [
+      "node_modules/@types",
+      "typings"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "typings/**/*.ts"
+  ],
+  "exclude": [
+    "./dist",
+    "./static"
+  ]
+}
